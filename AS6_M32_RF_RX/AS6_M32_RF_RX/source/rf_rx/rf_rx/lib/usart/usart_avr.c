@@ -61,7 +61,7 @@ ISR(USART_RXC_VECT)
 		UQEnd++;
 
 
-	URBuff[UQEnd]=data;
+	URBuff[UQEnd]=data; //Buffer the Data
 
 	if(UQFront==-1) UQFront=0;
 
